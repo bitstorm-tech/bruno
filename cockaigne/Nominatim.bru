@@ -1,0 +1,16 @@
+meta {
+  name: Nominatim
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://nominatim.openstreetmap.org/search?format=json&q=emmy-noether+10+m%C3%BCnchen
+  body: none
+  auth: none
+}
+
+query {
+  format: json
+  q: emmy-noether+10+m%C3%BCnchen
+}
